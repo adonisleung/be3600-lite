@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # ===================== 配置常量 =====================
-readonly HTTP_HOST="https://cafe.cpolar.cn/wkdaily/gl/raw/branch/main"
 readonly THIRD_PARTY_SOURCE="https://istore.linkease.com/repo/all/nas_luci"
 readonly OPENCLASH_URL="https://github.com/vernesong/OpenClash/releases/latest/download/luci-app-openclash.ipk"
 
@@ -646,3 +645,4 @@ main() {
 
 # 执行主程序
 main "$@"
+
